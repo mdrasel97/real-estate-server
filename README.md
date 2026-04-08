@@ -18,8 +18,8 @@ A robust Express.js backend server for a comprehensive real estate management pl
 
 # Live Demo
 
-- **Frontend:** [https://real-estate-client-drab-three.vercel.app](https://real-estate-client-drab-three.vercel.app)
-- **Backend API:** [https://real-state-server-cyan.vercel.app](https://real-state-server-cyan.vercel.app)
+- **Frontend:** []()
+- **Backend API:** []()
 
 ## 🚀 Features
 
