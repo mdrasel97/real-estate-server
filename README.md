@@ -5,15 +5,15 @@ A robust Express.js backend server for a comprehensive real estate management pl
 # Credentials for Testing
 
 - **Admin**
-  - Email:monirhossain@gmail.com
-  - Password:123456789
+  - Email:mollarasel972@gmail.com
+  - Password:12345678
 
 - **Agent**
   - Email:ultrasrealpro@gmail.com
   - Password:12345678
 
 - **user**
-  - Email:monirdev1@gmail.com
+  - Email:
   - Password:12345678
 
 # Live Demo
