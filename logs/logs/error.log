@@ -1,0 +1,2086 @@
+2026-03-28 18:54:38:5438 error: [Error Handler] Invalid email or password
+2026-03-28 18:54:38:5438 error: POST /api/v1/auth/login - 401 - 4546ms
+2026-03-28 19:14:28:1428 error: [Error Handler] Please verify your email before signing in.
+2026-03-28 19:14:28:1428 error: POST /api/v1/auth/login - 400 - 2733ms
+2026-03-28 19:16:54:1654 error: [Error Handler] [
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "otp"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  }
+]
+2026-03-28 19:16:54:1654 error: POST /api/v1/auth/verify-email - 400 - 5ms
+2026-03-28 19:17:05:175 error: [Error Handler] User not found
+2026-03-28 19:17:05:175 error: POST /api/v1/auth/verify-email - 404 - 2668ms
+2026-03-28 19:17:23:1723 error: [Error Handler] OTP expired
+2026-03-28 19:17:23:1723 error: POST /api/v1/auth/verify-email - 400 - 4430ms
+2026-03-28 19:18:54:1854 error: [Error Handler] Invalid OTP
+2026-03-28 19:18:54:1854 error: POST /api/v1/auth/verify-email - 400 - 3353ms
+2026-03-28 19:21:25:2125 error: [Error Handler] Invalid OTP
+2026-03-28 19:21:25:2125 error: POST /api/v1/auth/verify-email - 400 - 3617ms
+2026-03-28 19:49:28:4928 error: [Error Handler] User not found
+2026-03-28 19:49:28:4928 error: POST /api/v1/auth/resend-verification-email - 404 - 3298ms
+2026-03-28 19:50:21:5021 error: [Error Handler] Invalid OTP
+2026-03-28 19:50:21:5021 error: POST /api/v1/auth/verify-email - 400 - 4249ms
+2026-03-28 19:51:01:511 error: [Error Handler] Invalid OTP
+2026-03-28 19:51:01:511 error: POST /api/v1/auth/verify-email - 400 - 1431ms
+2026-03-28 19:51:39:5139 error: [Error Handler] Email is already verified
+2026-03-28 19:51:39:5139 error: POST /api/v1/auth/resend-verification-email - 400 - 2727ms
+2026-03-28 20:14:30:1430 error: POST /api/v1/auth/login - 429 - 1ms
+2026-03-28 20:14:35:1435 error: POST /api/v1/auth/login - 429 - 1ms
+2026-03-28 20:14:36:1436 error: POST /api/v1/auth/login - 429 - 2ms
+2026-03-28 20:14:38:1438 error: POST /api/v1/auth/login - 429 - 1ms
+2026-03-28 20:14:46:1446 error: POST /api/v1/auth/login - 429 - 1ms
+2026-03-28 20:17:16:1716 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:17:16:1716 error: POST /api/v1/auth/login - 429 - 5ms
+2026-03-28 20:18:35:1835 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:18:35:1835 error: POST /api/v1/auth/login - 500 - 6ms
+2026-03-28 20:19:41:1941 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:19:41:1941 error: POST /api/v1/auth/login - 429 - 8ms
+2026-03-28 20:20:39:2039 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:20:39:2039 error: POST /api/v1/auth/login - 429 - 4ms
+2026-03-28 20:21:47:2147 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:21:47:2147 error: POST /api/v1/auth/login - 429 - 5ms
+2026-03-28 20:23:25:2325 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:23:25:2325 error: POST /api/v1/auth/login - 429 - 6ms
+2026-03-28 20:24:40:2440 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:24:40:2440 error: POST /api/v1/auth/login - 429 - 4ms
+2026-03-28 20:26:48:2648 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:26:48:2648 error: POST /api/v1/auth/login - 429 - 5ms
+2026-03-28 20:27:34:2734 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:27:34:2734 error: POST /api/v1/auth/login - 429 - 4ms
+2026-03-28 20:27:42:2742 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:27:42:2742 error: POST /api/v1/auth/login - 429 - 3ms
+2026-03-28 20:27:44:2744 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:27:44:2744 error: POST /api/v1/auth/login - 429 - 2ms
+2026-03-28 20:27:45:2745 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:27:45:2745 error: POST /api/v1/auth/login - 429 - 3ms
+2026-03-28 20:27:46:2746 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:27:46:2746 error: POST /api/v1/auth/login - 429 - 4ms
+2026-03-28 20:27:47:2747 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:27:47:2747 error: POST /api/v1/auth/login - 429 - 2ms
+2026-03-28 20:27:48:2748 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:27:48:2748 error: POST /api/v1/auth/login - 429 - 3ms
+2026-03-28 20:27:49:2749 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:27:49:2749 error: POST /api/v1/auth/login - 429 - 2ms
+2026-03-28 20:27:50:2750 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:27:50:2750 error: POST /api/v1/auth/login - 429 - 2ms
+2026-03-28 20:27:51:2751 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:27:51:2751 error: POST /api/v1/auth/login - 429 - 3ms
+2026-03-28 20:27:52:2752 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:27:52:2752 error: POST /api/v1/auth/login - 429 - 1ms
+2026-03-28 20:27:52:2752 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:27:52:2752 error: POST /api/v1/auth/login - 429 - 2ms
+2026-03-28 20:27:53:2753 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:27:53:2753 error: POST /api/v1/auth/login - 429 - 1ms
+2026-03-28 20:27:54:2754 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:27:54:2754 error: POST /api/v1/auth/login - 429 - 2ms
+2026-03-28 20:27:55:2755 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:27:55:2755 error: POST /api/v1/auth/login - 429 - 1ms
+2026-03-28 20:27:56:2756 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:27:56:2756 error: POST /api/v1/auth/login - 429 - 2ms
+2026-03-28 20:27:57:2757 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:27:57:2757 error: POST /api/v1/auth/login - 429 - 2ms
+2026-03-28 20:27:58:2758 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:27:58:2758 error: POST /api/v1/auth/login - 429 - 2ms
+2026-03-28 20:28:00:280 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:28:00:280 error: POST /api/v1/auth/login - 429 - 2ms
+2026-03-28 20:28:02:282 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:28:02:282 error: POST /api/v1/auth/login - 429 - 2ms
+2026-03-28 20:45:53:4553 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:45:53:4553 error: POST /api/v1/auth/login - 429 - 5ms
+2026-03-28 20:45:58:4558 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:45:58:4558 error: POST /api/v1/auth/login - 429 - 3ms
+2026-03-28 20:45:59:4559 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:45:59:4559 error: POST /api/v1/auth/login - 429 - 3ms
+2026-03-28 20:46:01:461 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:46:01:461 error: POST /api/v1/auth/login - 429 - 3ms
+2026-03-28 20:46:03:463 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:46:03:463 error: POST /api/v1/auth/login - 429 - 2ms
+2026-03-28 20:46:04:464 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:46:04:464 error: POST /api/v1/auth/login - 429 - 2ms
+2026-03-28 20:47:35:4735 error: [Error Handler] Too many requests, please try again later.
+2026-03-28 20:47:35:4735 error: POST /api/v1/auth/login - 429 - 5ms
+2026-03-28 20:57:56:5756 error: [Error Handler] 
+Invalid `prisma.user.findUnique()` invocation in
+F:\level-2-assignment\real-state-server\src\app\modules\auth\auth.service.ts:102:36
+
+   99 };
+  100 
+  101 const forgotPassword = async (email: string) => {
+→ 102   const isUser = await prisma.user.findUnique({
+          where: {
+            email: {
+              email: "monirhossain6164@gmail.com"
+            }
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+          }
+        })
+
+Argument `email`: Invalid value provided. Expected String, provided Object.
+2026-03-28 20:57:56:5756 error: POST /api/v1/auth/forgot-password - 400 - 55ms
+2026-03-28 21:00:44:044 error: [Error Handler] User not found
+2026-03-28 21:00:44:044 error: POST /api/v1/auth/forgot-password - 404 - 3932ms
+2026-03-28 21:03:53:353 error: [Error Handler] OTP expired
+2026-03-28 21:03:53:353 error: POST /api/v1/auth/reset-password - 400 - 4216ms
+2026-03-28 21:04:04:44 error: [Error Handler] Invalid OTP
+2026-03-28 21:04:04:44 error: POST /api/v1/auth/reset-password - 400 - 1243ms
+2026-03-28 21:05:12:512 error: [Error Handler] Invalid email or password
+2026-03-28 21:05:12:512 error: POST /api/v1/auth/login - 401 - 3361ms
+2026-03-29 09:25:53:2553 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-03-29 09:25:53:2553 error: POST /api/v1/properties - 403 - 4226ms
+2026-03-29 09:27:33:2733 error: [Error Handler] Cannot read properties of undefined (reading 'data')
+2026-03-29 09:27:33:2733 error: POST /api/v1/properties - 500 - 2760ms
+2026-03-29 09:30:10:3010 error: [Error Handler] Cannot read properties of undefined (reading 'data')
+2026-03-29 09:30:10:3010 error: POST /api/v1/properties - 500 - 2786ms
+2026-03-29 09:31:16:3116 error: [Error Handler] Cannot read properties of undefined (reading 'data')
+2026-03-29 09:31:16:3116 error: POST /api/v1/properties - 500 - 3118ms
+2026-03-29 09:33:23:3323 error: [Error Handler] 
+Invalid `prisma.property.create()` invocation in
+F:\level-2-assignment\real-state-server\src\app\modules\property\property.service.ts:6:40
+
+  3 
+  4 const createProperty = async (payload: IProperty) => {
+  5   const { images, ...propertyData } = payload;
+→ 6   const result = await prisma.property.create({
+        data: {
+          data: "{\n  \"title\": \"Modern Luxury Apartment\",\n  \"description\": \"A beautiful apartment in the city center with all modern facilities.\",\n  \"price\": 85000,\n  \"location\": \"Dhaka\",\n  \"address\": \"Banani, Road 12\",\n  \"bedrooms\": 3,\n  \"bathrooms\": 2,\n  \"area\": 1450,\n  \"type\": \"APARTMENT\",\n  \"listingType\": \"SALE\"\n}",
+          thumbnail: "https://res.cloudinary.com/ddxqljriw/image/upload/v1774755197/healthcare/images/pexels-apartment-1851201-1774755192421.jpg.jpg",
+          agentId: "zK6Q5z19X9UTBra7lkWGGhoNIijU5HBO",
+          propertyImages: {
+            create: [
+              {
+                url: "https://res.cloudinary.com/ddxqljriw/image/upload/v1774755202/healthcare/images/clickerhappy-living-room-2732939-1774755196711.jpg.jpg"
+              },
+              {
+                url: "https://res.cloudinary.com/ddxqljriw/image/upload/v1774755202/healthcare/images/keresi72-wall-4160601920-1774755200261.jpg.jpg"
+              }
+            ]
+          },
+      +   title: String
+        }
+      })
+
+Argument `title` is missing.
+2026-03-29 09:33:23:3323 error: POST /api/v1/properties - 400 - 13697ms
+2026-03-29 09:34:46:3446 error: [Error Handler] Cannot read properties of undefined (reading 'data')
+2026-03-29 09:34:46:3446 error: POST /api/v1/properties - 500 - 3014ms
+2026-03-29 09:36:12:3612 error: [Error Handler] [
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "thumbnail"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  },
+  {
+    "code": "invalid_value",
+    "values": [
+      "AVAILABLE",
+      "RENTED",
+      "SOLD"
+    ],
+    "path": [
+      "body",
+      "status"
+    ],
+    "message": "Invalid property status"
+  },
+  {
+    "expected": "boolean",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "isPremium"
+    ],
+    "message": "Invalid input: expected boolean, received undefined"
+  },
+  {
+    "expected": "boolean",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "isFeatured"
+    ],
+    "message": "Invalid input: expected boolean, received undefined"
+  }
+]
+2026-03-29 09:36:12:3612 error: POST /api/v1/properties - 400 - 12600ms
+2026-03-29 09:40:06:406 error: [Error Handler] [
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "thumbnail"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  }
+]
+2026-03-29 09:40:06:406 error: POST /api/v1/properties - 400 - 12679ms
+2026-03-29 09:41:32:4132 error: [Error Handler] [
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "thumbnail"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  }
+]
+2026-03-29 09:41:32:4132 error: POST /api/v1/properties - 400 - 12944ms
+2026-03-29 09:42:28:4228 error: [Error Handler] [
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "thumbnail"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  }
+]
+2026-03-29 09:42:28:4228 error: POST /api/v1/properties - 400 - 14040ms
+2026-03-29 14:54:49:5449 error: [Error Handler] Invalid email or password
+2026-03-29 14:54:49:5449 error: POST /api/v1/auth/login - 401 - 3250ms
+2026-03-29 14:57:57:5757 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-03-29 14:57:57:5757 error: POST /api/v1/properties - 403 - 2818ms
+2026-03-29 15:13:36:1336 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-03-29 15:13:36:1336 error: POST /api/v1/properties - 403 - 2855ms
+2026-03-29 15:25:30:2530 error: POST /api/v1/properties/fb216d4c-3827-4025-974e-5623232ceee1 - 404 - 2ms
+2026-03-29 15:28:08:288 error: [Error Handler] You are not authorized to update this property
+2026-03-29 15:28:08:288 error: PUT /api/v1/properties/fb216d4c-3827-4025-974e-5623232ceee1 - 403 - 3204ms
+2026-03-29 15:39:34:3934 error: [Error Handler] 
+Invalid `prisma.property.update()` invocation in
+F:\level-2-assignment\real-state-server\src\app\modules\property\property.service.ts:96:40
+
+  93     "You are not authorized to update this property",
+  94   );
+  95 }
+→ 96 const result = await prisma.property.update({
+       where: {
+         id: "fb216d4c-3827-4025-974e-5623232ceee1",
+         agentId: "2TsuCkx7KArjDdCpKyjI7SYHBpdtHCe6"
+       },
+       data: {
+         title: "Modern Luxury Apartment update",
+         description: "A beautiful apartment in the city center with all modern facilities.",
+         price: 85000,
+         location: "Dhaka",
+         address: "Banani, Road 12",
+         bedrooms: 3,
+         bathrooms: 2,
+         area: 1450,
+         type: "APARTMENT",
+         listingType: "SALE",
+         isisFeatured: true,
+         ~~~~~~~~~~~~
+         thumbnail: undefined,
+         propertyImages: {
+           create: []
+         },
+     ?   id?: String | StringFieldUpdateOperationsInput,
+     ?   status?: PropertyStatus | EnumPropertyStatusFieldUpdateOperationsInput,
+     ?   isPremium?: Boolean | BoolFieldUpdateOperationsInput,
+     ?   isFeatured?: Boolean | BoolFieldUpdateOperationsInput,
+     ?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+     ?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+     ?   agent?: UserUpdateOneRequiredWithoutPropertiesNestedInput,
+     ?   reviews?: ReviewUpdateManyWithoutPropertyNestedInput,
+     ?   favorites?: FavoriteUpdateManyWithoutPropertyNestedInput,
+     ?   bookingRequests?: BookingRequestUpdateManyWithoutPropertyNestedInput,
+     ?   payments?: PaymentUpdateManyWithoutPropertyNestedInput
+       }
+     })
+
+Unknown argument `isisFeatured`. Did you mean `isFeatured`? Available options are marked with ?.
+2026-03-29 15:39:34:3934 error: PUT /api/v1/properties/fb216d4c-3827-4025-974e-5623232ceee1 - 400 - 3985ms
+2026-03-29 15:40:48:4048 error: [Error Handler] 
+Invalid `prisma.property.update()` invocation in
+F:\level-2-assignment\real-state-server\src\app\modules\property\property.service.ts:96:40
+
+  93     "You are not authorized to update this property",
+  94   );
+  95 }
+→ 96 const result = await prisma.property.update({
+       where: {
+         id: "fb216d4c-3827-4025-974e-5623232ceee1",
+         agentId: "2TsuCkx7KArjDdCpKyjI7SYHBpdtHCe6"
+       },
+       data: {
+         title: "Modern Luxury Apartment update",
+         description: "A beautiful apartment in the city center with all modern facilities.",
+         price: 85000,
+         location: "Dhaka",
+         address: "Banani, Road 12",
+         bedrooms: 3,
+         bathrooms: 2,
+         area: 1450,
+         type: "APARTMENT",
+         listingType: "SALE",
+         isisFeatured: true,
+         ~~~~~~~~~~~~
+         thumbnail: undefined,
+         propertyImages: {
+           create: []
+         },
+     ?   id?: String | StringFieldUpdateOperationsInput,
+     ?   status?: PropertyStatus | EnumPropertyStatusFieldUpdateOperationsInput,
+     ?   isPremium?: Boolean | BoolFieldUpdateOperationsInput,
+     ?   isFeatured?: Boolean | BoolFieldUpdateOperationsInput,
+     ?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+     ?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+     ?   agent?: UserUpdateOneRequiredWithoutPropertiesNestedInput,
+     ?   reviews?: ReviewUpdateManyWithoutPropertyNestedInput,
+     ?   favorites?: FavoriteUpdateManyWithoutPropertyNestedInput,
+     ?   bookingRequests?: BookingRequestUpdateManyWithoutPropertyNestedInput,
+     ?   payments?: PaymentUpdateManyWithoutPropertyNestedInput
+       }
+     })
+
+Unknown argument `isisFeatured`. Did you mean `isFeatured`? Available options are marked with ?.
+2026-03-29 15:40:48:4048 error: PUT /api/v1/properties/fb216d4c-3827-4025-974e-5623232ceee1 - 400 - 3259ms
+2026-03-29 15:41:30:4130 error: [Error Handler] 
+Invalid `prisma.property.update()` invocation in
+F:\level-2-assignment\real-state-server\src\app\modules\property\property.service.ts:96:40
+
+  93     "You are not authorized to update this property",
+  94   );
+  95 }
+→ 96 const result = await prisma.property.update({
+       where: {
+         id: "fb216d4c-3827-4025-974e-5623232ceee1",
+         agentId: "2TsuCkx7KArjDdCpKyjI7SYHBpdtHCe6"
+       },
+       data: {
+         title: "Modern Luxury Apartment update",
+         description: "A beautiful apartment in the city center with all modern facilities.",
+         price: 85000,
+         location: "Dhaka",
+         address: "Banani, Road 12",
+         bedrooms: 3,
+         bathrooms: 2,
+         area: 1450,
+         type: "APARTMENT",
+         listingType: "SALE",
+         isisFeatured: true,
+         ~~~~~~~~~~~~
+         thumbnail: undefined,
+         propertyImages: {
+           create: []
+         },
+     ?   id?: String | StringFieldUpdateOperationsInput,
+     ?   status?: PropertyStatus | EnumPropertyStatusFieldUpdateOperationsInput,
+     ?   isPremium?: Boolean | BoolFieldUpdateOperationsInput,
+     ?   isFeatured?: Boolean | BoolFieldUpdateOperationsInput,
+     ?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+     ?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+     ?   agent?: UserUpdateOneRequiredWithoutPropertiesNestedInput,
+     ?   reviews?: ReviewUpdateManyWithoutPropertyNestedInput,
+     ?   favorites?: FavoriteUpdateManyWithoutPropertyNestedInput,
+     ?   bookingRequests?: BookingRequestUpdateManyWithoutPropertyNestedInput,
+     ?   payments?: PaymentUpdateManyWithoutPropertyNestedInput
+       }
+     })
+
+Unknown argument `isisFeatured`. Did you mean `isFeatured`? Available options are marked with ?.
+2026-03-29 15:41:30:4130 error: PUT /api/v1/properties/fb216d4c-3827-4025-974e-5623232ceee1 - 400 - 3249ms
+2026-03-29 15:41:49:4149 error: [Error Handler] 
+Invalid `prisma.property.update()` invocation in
+F:\level-2-assignment\real-state-server\src\app\modules\property\property.service.ts:96:40
+
+  93     "You are not authorized to update this property",
+  94   );
+  95 }
+→ 96 const result = await prisma.property.update({
+       where: {
+         id: "fb216d4c-3827-4025-974e-5623232ceee1",
+         agentId: "2TsuCkx7KArjDdCpKyjI7SYHBpdtHCe6"
+       },
+       data: {
+         title: "Modern Luxury Apartment update",
+         description: "A beautiful apartment in the city center with all modern facilities.",
+         price: 85000,
+         location: "Dhaka",
+         address: "Banani, Road 12",
+         bedrooms: 3,
+         bathrooms: 2,
+         area: 1450,
+         type: "APARTMENT",
+         listingType: "SALE",
+         isisFeatured: true,
+         ~~~~~~~~~~~~
+         thumbnail: undefined,
+         propertyImages: {
+           create: []
+         },
+     ?   id?: String | StringFieldUpdateOperationsInput,
+     ?   status?: PropertyStatus | EnumPropertyStatusFieldUpdateOperationsInput,
+     ?   isPremium?: Boolean | BoolFieldUpdateOperationsInput,
+     ?   isFeatured?: Boolean | BoolFieldUpdateOperationsInput,
+     ?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+     ?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+     ?   agent?: UserUpdateOneRequiredWithoutPropertiesNestedInput,
+     ?   reviews?: ReviewUpdateManyWithoutPropertyNestedInput,
+     ?   favorites?: FavoriteUpdateManyWithoutPropertyNestedInput,
+     ?   bookingRequests?: BookingRequestUpdateManyWithoutPropertyNestedInput,
+     ?   payments?: PaymentUpdateManyWithoutPropertyNestedInput
+       }
+     })
+
+Unknown argument `isisFeatured`. Did you mean `isFeatured`? Available options are marked with ?.
+2026-03-29 15:41:49:4149 error: PUT /api/v1/properties/fb216d4c-3827-4025-974e-5623232ceee1 - 400 - 3248ms
+2026-03-29 15:45:52:4552 error: PATCH /api/v1/properties/fb216d4c-3827-4025-974e-5623232ceee1 - 404 - 65ms
+2026-03-29 15:52:11:5211 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-03-29 15:52:11:5211 error: PATCH /api/v1/properties/featured/fb216d4c-3827-4025-974e-5623232ceee1 - 403 - 3762ms
+2026-03-30 13:51:38:5138 error: GET /api/v1/properties/fb216d4c-3827-4025-974e-5623232ceee12 - 404 - 2604ms
+2026-03-31 07:17:34:1734 error: POST /api/auth/sign-in/email - 401 - 5057ms
+2026-03-31 07:17:42:1742 error: POST /api/auth/sign-in/email - 401 - 1234ms
+2026-03-31 07:17:47:1747 error: POST /api/auth/sign-in/email - 401 - 1203ms
+2026-03-31 07:31:01:311 error: [Error Handler] 
+Invalid `prisma.property.create()` invocation in
+F:\level-2-assignment\real-state-server\src\app\modules\property\property.service.ts:20:40
+
+  17 
+  18 const createProperty = async (payload: IProperty) => {
+  19   const { images, thumbnail, ...propertyData } = payload;
+→ 20   const result = await prisma.property.create({
+         data: {
+           title: "Modern Luxury Apartment 2",
+           description: "A beautiful apartment in the city center with all modern facilities.",
+           price: 86000,
+           location: "Dhaka",
+           address: "Banani, Road 12",
+           bedrooms: 5,
+           bathrooms: 2,
+           area: 1450,
+           type: "APARTMENT",
+           listingType: "SALE",
+           agentId: "2TsuCkx7KArjDdCpKyjI7SYHBpdtHCe6",
+           propertyImages: {
+             create: []
+           },
+       +   thumbnail: String
+         }
+       })
+
+Argument `thumbnail` is missing.
+2026-03-31 07:31:01:311 error: POST /api/v1/properties - 400 - 3228ms
+2026-03-31 08:01:45:145 error: [Error Handler] 
+Invalid `this.model.count()` invocation in
+F:\level-2-assignment\real-state-server\src\app\helper\Querybuilder.ts:416:18
+
+  413 
+  414 async execute(): Promise<IQueryResult<T>> {
+  415   const [total, data] = await Promise.all([
+→ 416     this.model.count({
+            select: {
+              _count: {
+                select: {
+                  _all: true
+                }
+              }
+            },
+            where: {
+              OR: [
+                {
+                  title: {
+                    contains: "m",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  description: {
+                    contains: "m",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  location: {
+                    contains: "m",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  price: {
+                    contains: "m",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  bedrooms: {
+                    contains: "m",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  bathrooms: {
+                    contains: "m",
+                    mode: "insensitive"
+                  }
+                }
+              ],
+              location: {
+                contains: "dhaka",
+                mode: "insensitive"
+              }
+            }
+          })
+
+Unknown argument `contains`. Available options are marked with ?.
+2026-03-31 08:01:45:145 error: GET /api/v1/properties?page=1&limit=12&searchTerm=m&sortBy=createdAt&sortOrder=desc&location=dhaka - 400 - 91ms
+2026-03-31 08:01:46:146 error: [Error Handler] 
+Invalid `this.model.count()` invocation in
+F:\level-2-assignment\real-state-server\src\app\helper\Querybuilder.ts:416:18
+
+  413 
+  414 async execute(): Promise<IQueryResult<T>> {
+  415   const [total, data] = await Promise.all([
+→ 416     this.model.count({
+            select: {
+              _count: {
+                select: {
+                  _all: true
+                }
+              }
+            },
+            where: {
+              OR: [
+                {
+                  title: {
+                    contains: "mo",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  description: {
+                    contains: "mo",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  location: {
+                    contains: "mo",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  price: {
+                    contains: "mo",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  bedrooms: {
+                    contains: "mo",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  bathrooms: {
+                    contains: "mo",
+                    mode: "insensitive"
+                  }
+                }
+              ],
+              location: {
+                contains: "dhaka",
+                mode: "insensitive"
+              }
+            }
+          })
+
+Unknown argument `contains`. Available options are marked with ?.
+2026-03-31 08:01:46:146 error: GET /api/v1/properties?page=1&limit=12&searchTerm=mo&sortBy=createdAt&sortOrder=desc&location=dhaka - 400 - 21ms
+2026-03-31 08:01:47:147 error: [Error Handler] 
+Invalid `this.model.count()` invocation in
+F:\level-2-assignment\real-state-server\src\app\helper\Querybuilder.ts:416:18
+
+  413 
+  414 async execute(): Promise<IQueryResult<T>> {
+  415   const [total, data] = await Promise.all([
+→ 416     this.model.count({
+            select: {
+              _count: {
+                select: {
+                  _all: true
+                }
+              }
+            },
+            where: {
+              OR: [
+                {
+                  title: {
+                    contains: "mod",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  description: {
+                    contains: "mod",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  location: {
+                    contains: "mod",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  price: {
+                    contains: "mod",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  bedrooms: {
+                    contains: "mod",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  bathrooms: {
+                    contains: "mod",
+                    mode: "insensitive"
+                  }
+                }
+              ],
+              location: {
+                contains: "dhaka",
+                mode: "insensitive"
+              }
+            }
+          })
+
+Unknown argument `contains`. Available options are marked with ?.
+2026-03-31 08:01:47:147 error: GET /api/v1/properties?page=1&limit=12&searchTerm=mod&sortBy=createdAt&sortOrder=desc&location=dhaka - 400 - 19ms
+2026-03-31 08:02:07:27 error: [Error Handler] 
+Invalid `this.model.count()` invocation in
+F:\level-2-assignment\real-state-server\src\app\helper\Querybuilder.ts:416:18
+
+  413 
+  414 async execute(): Promise<IQueryResult<T>> {
+  415   const [total, data] = await Promise.all([
+→ 416     this.model.count({
+            select: {
+              _count: {
+                select: {
+                  _all: true
+                }
+              }
+            },
+            where: {
+              OR: [
+                {
+                  title: {
+                    contains: "l",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  description: {
+                    contains: "l",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  location: {
+                    contains: "l",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  price: {
+                    contains: "l",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  bedrooms: {
+                    contains: "l",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  bathrooms: {
+                    contains: "l",
+                    mode: "insensitive"
+                  }
+                }
+              ]
+            }
+          })
+
+Unknown argument `contains`. Available options are marked with ?.
+2026-03-31 08:02:07:27 error: GET /api/v1/properties?page=1&limit=12&searchTerm=l&sortBy=createdAt&sortOrder=desc - 400 - 11ms
+2026-03-31 08:02:09:29 error: [Error Handler] 
+Invalid `this.model.count()` invocation in
+F:\level-2-assignment\real-state-server\src\app\helper\Querybuilder.ts:416:18
+
+  413 
+  414 async execute(): Promise<IQueryResult<T>> {
+  415   const [total, data] = await Promise.all([
+→ 416     this.model.count({
+            select: {
+              _count: {
+                select: {
+                  _all: true
+                }
+              }
+            },
+            where: {
+              OR: [
+                {
+                  title: {
+                    contains: "lu",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  description: {
+                    contains: "lu",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  location: {
+                    contains: "lu",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  price: {
+                    contains: "lu",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  bedrooms: {
+                    contains: "lu",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  bathrooms: {
+                    contains: "lu",
+                    mode: "insensitive"
+                  }
+                }
+              ]
+            }
+          })
+
+Unknown argument `contains`. Available options are marked with ?.
+2026-03-31 08:02:09:29 error: GET /api/v1/properties?page=1&limit=12&searchTerm=lu&sortBy=createdAt&sortOrder=desc - 400 - 10ms
+2026-03-31 08:05:26:526 error: [Error Handler] 
+Invalid `this.model.count()` invocation in
+F:\level-2-assignment\real-state-server\src\app\helper\Querybuilder.ts:416:18
+
+  413 
+  414 async execute(): Promise<IQueryResult<T>> {
+  415   const [total, data] = await Promise.all([
+→ 416     this.model.count({
+            select: {
+              _count: {
+                select: {
+                  _all: true
+                }
+              }
+            },
+            where: {
+              OR: [
+                {
+                  title: {
+                    contains: "Dhaka",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  description: {
+                    contains: "Dhaka",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  location: {
+                    contains: "Dhaka",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  price: {
+                    contains: "Dhaka",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  bedrooms: {
+                    contains: "Dhaka",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  bathrooms: {
+                    contains: "Dhaka",
+                    mode: "insensitive"
+                  }
+                }
+              ]
+            }
+          })
+
+Unknown argument `contains`. Available options are marked with ?.
+2026-03-31 08:05:26:526 error: GET /api/v1/properties?searchTerm=Dhaka&limit=5&page=1 - 400 - 12ms
+2026-03-31 08:05:33:533 error: [Error Handler] 
+Invalid `this.model.count()` invocation in
+F:\level-2-assignment\real-state-server\src\app\helper\Querybuilder.ts:416:18
+
+  413 
+  414 async execute(): Promise<IQueryResult<T>> {
+  415   const [total, data] = await Promise.all([
+→ 416     this.model.count({
+            select: {
+              _count: {
+                select: {
+                  _all: true
+                }
+              }
+            },
+            where: {
+              OR: [
+                {
+                  title: {
+                    contains: "Dhaka",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  description: {
+                    contains: "Dhaka",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  location: {
+                    contains: "Dhaka",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  price: {
+                    contains: "Dhaka",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  bedrooms: {
+                    contains: "Dhaka",
+                    mode: "insensitive"
+                  }
+                },
+                {
+                  bathrooms: {
+                    contains: "Dhaka",
+                    mode: "insensitive"
+                  }
+                }
+              ]
+            }
+          })
+
+Unknown argument `contains`. Available options are marked with ?.
+2026-03-31 08:05:33:533 error: GET /api/v1/properties?searchTerm=Dhaka&limit=5&page=1 - 400 - 14ms
+2026-03-31 13:17:29:1729 error: GET /api/v1/properties/featured?limit=10 - 404 - 2755ms
+2026-03-31 13:17:30:1730 error: GET /api/v1/properties/featured?limit=10 - 404 - 294ms
+2026-03-31 13:17:31:1731 error: GET /api/v1/properties/featured?limit=10 - 404 - 293ms
+2026-03-31 13:17:34:1734 error: GET /api/v1/properties/featured?limit=10 - 404 - 293ms
+2026-03-31 13:32:47:3247 error: POST /api/auth/sign-in/email - 401 - 3559ms
+2026-03-31 14:06:00:60 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-03-31 14:06:00:60 error: GET /api/v1/bookings/my-bookings - 401 - 3ms
+2026-03-31 14:16:08:168 error: GET /api/v1/auth/get-session - 404 - 1ms
+2026-03-31 14:16:08:168 error: GET /api/v1/auth/get-session - 404 - 1ms
+2026-03-31 14:16:08:168 error: GET /api/v1/auth/get-session - 404 - 1ms
+2026-03-31 14:16:08:168 error: GET /api/v1/auth/get-session - 404 - 3ms
+2026-03-31 14:16:08:168 error: GET /api/v1/auth/get-session - 404 - 1ms
+2026-03-31 14:16:09:169 error: GET /api/v1/auth/get-session - 404 - 1ms
+2026-03-31 14:16:09:169 error: GET /api/v1/auth/get-session - 404 - 1ms
+2026-03-31 14:16:09:169 error: GET /api/v1/auth/get-session - 404 - 1ms
+2026-03-31 14:16:09:169 error: GET /api/v1/auth/get-session - 404 - 2ms
+2026-03-31 14:16:17:1617 error: GET /api/v1/auth/get-session - 404 - 1ms
+2026-03-31 14:16:19:1619 error: GET /api/v1/auth/get-session - 404 - 0ms
+2026-03-31 14:16:19:1619 error: GET /api/v1/auth/get-session - 404 - 0ms
+2026-03-31 14:22:42:2242 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-03-31 14:22:42:2242 error: POST /api/v1/bookings - 401 - 333ms
+2026-03-31 14:24:51:2451 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-03-31 14:24:51:2451 error: POST /api/v1/bookings - 401 - 3ms
+2026-03-31 14:25:13:2513 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-03-31 14:25:13:2513 error: POST /api/v1/bookings - 401 - 3ms
+2026-03-31 14:25:15:2515 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-03-31 14:25:15:2515 error: POST /api/v1/bookings - 401 - 2ms
+2026-03-31 14:27:45:2745 error: [Error Handler] [
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "agentId"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  },
+  {
+    "expected": "date",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "visitDate"
+    ],
+    "message": "Invalid input: expected date, received undefined"
+  }
+]
+2026-03-31 14:27:45:2745 error: POST /api/v1/bookings - 400 - 2762ms
+2026-03-31 14:28:14:2814 error: [Error Handler] [
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "agentId"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  },
+  {
+    "expected": "date",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "visitDate"
+    ],
+    "message": "Invalid input: expected date, received undefined"
+  }
+]
+2026-03-31 14:28:14:2814 error: POST /api/v1/bookings - 400 - 2758ms
+2026-03-31 14:32:22:3222 error: [Error Handler] [
+  {
+    "expected": "date",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "visitDate"
+    ],
+    "message": "Invalid input: expected date, received string"
+  }
+]
+2026-03-31 14:32:22:3222 error: POST /api/v1/bookings - 400 - 2881ms
+2026-03-31 14:33:43:3343 error: [Error Handler] [
+  {
+    "expected": "date",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "visitDate"
+    ],
+    "message": "Invalid input: expected date, received string"
+  }
+]
+2026-03-31 14:33:43:3343 error: POST /api/v1/bookings - 400 - 2947ms
+2026-03-31 14:34:20:3420 error: [Error Handler] [
+  {
+    "expected": "date",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "visitDate"
+    ],
+    "message": "Invalid input: expected date, received string"
+  }
+]
+2026-03-31 14:34:20:3420 error: POST /api/v1/bookings - 400 - 2888ms
+2026-03-31 14:35:08:358 error: [Error Handler] [
+  {
+    "expected": "date",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "visitDate"
+    ],
+    "message": "Invalid input: expected date, received string"
+  }
+]
+2026-03-31 14:35:08:358 error: POST /api/v1/bookings - 400 - 2868ms
+2026-03-31 14:36:35:3635 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-03-31 14:36:35:3635 error: POST /api/v1/payments/checkout/booking/f89acab6-3bae-45c1-b6ab-41d7b006021b - 401 - 8ms
+2026-03-31 14:37:42:3742 error: [Error Handler] A booking already exists for this agent and property.
+2026-03-31 14:37:42:3742 error: POST /api/v1/bookings - 409 - 3273ms
+2026-03-31 14:38:29:3829 error: [Error Handler] You are not allowed to pay for this booking.
+2026-03-31 14:38:29:3829 error: POST /api/v1/payments/checkout/booking/edee90ba-08af-4b7e-9484-ca9deda2eafc - 403 - 1211ms
+2026-03-31 14:40:01:401 error: [Error Handler] A booking already exists for this agent and property.
+2026-03-31 14:40:01:401 error: POST /api/v1/bookings - 409 - 866ms
+2026-03-31 14:40:37:4037 error: [Error Handler] You are not allowed to pay for this booking.
+2026-03-31 14:40:37:4037 error: POST /api/v1/payments/checkout/booking/58765201-01a8-4939-a2e4-36ed01eec434 - 403 - 1120ms
+2026-03-31 14:53:16:5316 error: GET /favicon.ico - 404 - 1ms
+2026-03-31 15:56:09:569 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-03-31 15:56:09:569 error: GET /api/v1/payments/settings - 401 - 11ms
+2026-03-31 15:56:18:5618 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-03-31 15:56:18:5618 error: GET /api/v1/payments/settings - 401 - 5ms
+2026-03-31 15:57:01:571 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-03-31 15:57:01:571 error: GET /api/v1/payments/settings - 401 - 10ms
+2026-03-31 15:58:15:5815 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-03-31 15:58:15:5815 error: GET /api/v1/payments/settings - 403 - 2862ms
+2026-03-31 15:58:34:5834 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-03-31 15:58:34:5834 error: GET /api/v1/payments/settings - 403 - 2842ms
+2026-03-31 16:12:18:1218 error: [Error Handler] 
+Invalid `prisma.user.update()` invocation in
+F:\level-2-assignment\real-state-server\src\app\modules\user\user.service.ts:24:41
+
+  21   userId: string,
+  22   data: { name?: string; phone?: string; image?: string },
+  23 ) => {
+→ 24   const updatedUser = await prisma.user.update({
+         where: {
+           id: "w2mLZPr29tyj3QmGpwiJJvdmHEUKzSQi"
+         },
+         data: {
+           name: "User",
+           phone: "01747706163",
+           ~~~~~
+       ?   id?: String | StringFieldUpdateOperationsInput,
+       ?   email?: String | StringFieldUpdateOperationsInput,
+       ?   emailVerified?: Boolean | BoolFieldUpdateOperationsInput,
+       ?   image?: String | NullableStringFieldUpdateOperationsInput | Null,
+       ?   role?: Role | EnumRoleFieldUpdateOperationsInput,
+       ?   status?: UserStatus | EnumUserStatusFieldUpdateOperationsInput,
+       ?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+       ?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+       ?   sessions?: SessionUpdateManyWithoutUserNestedInput,
+       ?   accounts?: AccountUpdateManyWithoutUserNestedInput,
+       ?   properties?: PropertyUpdateManyWithoutAgentNestedInput,
+       ?   reviews?: ReviewUpdateManyWithoutAgentNestedInput,
+       ?   favorites?: FavoriteUpdateManyWithoutAgentNestedInput,
+       ?   bookingRequests?: BookingRequestUpdateManyWithoutAgentNestedInput,
+       ?   payments?: PaymentUpdateManyWithoutAgentNestedInput
+         }
+       })
+
+Unknown argument `phone`. Did you mean `role`? Available options are marked with ?.
+2026-03-31 16:12:18:1218 error: PATCH /api/v1/users/profile/update - 400 - 713ms
+2026-03-31 16:13:52:1352 error: [Error Handler] 
+Invalid `prisma.user.update()` invocation in
+F:\level-2-assignment\real-state-server\src\app\modules\user\user.service.ts:25:41
+
+  22   data: { name?: string; phone?: string; image?: string },
+  23 ) => {
+  24   console.log(userId, data);
+→ 25   const updatedUser = await prisma.user.update({
+         where: {
+           id: "w2mLZPr29tyj3QmGpwiJJvdmHEUKzSQi"
+         },
+         data: {
+           name: "User",
+           phone: "01747706163",
+           ~~~~~
+       ?   id?: String | StringFieldUpdateOperationsInput,
+       ?   email?: String | StringFieldUpdateOperationsInput,
+       ?   emailVerified?: Boolean | BoolFieldUpdateOperationsInput,
+       ?   image?: String | NullableStringFieldUpdateOperationsInput | Null,
+       ?   role?: Role | EnumRoleFieldUpdateOperationsInput,
+       ?   status?: UserStatus | EnumUserStatusFieldUpdateOperationsInput,
+       ?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+       ?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+       ?   sessions?: SessionUpdateManyWithoutUserNestedInput,
+       ?   accounts?: AccountUpdateManyWithoutUserNestedInput,
+       ?   properties?: PropertyUpdateManyWithoutAgentNestedInput,
+       ?   reviews?: ReviewUpdateManyWithoutAgentNestedInput,
+       ?   favorites?: FavoriteUpdateManyWithoutAgentNestedInput,
+       ?   bookingRequests?: BookingRequestUpdateManyWithoutAgentNestedInput,
+       ?   payments?: PaymentUpdateManyWithoutAgentNestedInput
+         }
+       })
+
+Unknown argument `phone`. Did you mean `role`? Available options are marked with ?.
+2026-03-31 16:13:52:1352 error: PATCH /api/v1/users/profile/update - 400 - 664ms
+2026-03-31 16:14:57:1457 error: [Error Handler] 
+Invalid `prisma.user.update()` invocation in
+F:\level-2-assignment\real-state-server\src\app\modules\user\user.service.ts:25:41
+
+  22   data: { name?: string; phone?: string; image?: string },
+  23 ) => {
+  24   console.log(userId, data);
+→ 25   const updatedUser = await prisma.user.update({
+         where: {
+           id: "w2mLZPr29tyj3QmGpwiJJvdmHEUKzSQi"
+         },
+         data: {
+           name: "User",
+           phone: "01747706163",
+           ~~~~~
+       ?   id?: String | StringFieldUpdateOperationsInput,
+       ?   email?: String | StringFieldUpdateOperationsInput,
+       ?   emailVerified?: Boolean | BoolFieldUpdateOperationsInput,
+       ?   image?: String | NullableStringFieldUpdateOperationsInput | Null,
+       ?   role?: Role | EnumRoleFieldUpdateOperationsInput,
+       ?   status?: UserStatus | EnumUserStatusFieldUpdateOperationsInput,
+       ?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+       ?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+       ?   sessions?: SessionUpdateManyWithoutUserNestedInput,
+       ?   accounts?: AccountUpdateManyWithoutUserNestedInput,
+       ?   properties?: PropertyUpdateManyWithoutAgentNestedInput,
+       ?   reviews?: ReviewUpdateManyWithoutAgentNestedInput,
+       ?   favorites?: FavoriteUpdateManyWithoutAgentNestedInput,
+       ?   bookingRequests?: BookingRequestUpdateManyWithoutAgentNestedInput,
+       ?   payments?: PaymentUpdateManyWithoutAgentNestedInput
+         }
+       })
+
+Unknown argument `phone`. Did you mean `role`? Available options are marked with ?.
+2026-03-31 16:14:57:1457 error: PATCH /api/v1/users/profile/update - 400 - 685ms
+2026-03-31 17:28:39:2839 error: [Error Handler] [
+  {
+    "expected": "number",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "price"
+    ],
+    "message": "Invalid input: expected number, received string"
+  },
+  {
+    "expected": "number",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "bedrooms"
+    ],
+    "message": "Invalid input: expected number, received string"
+  },
+  {
+    "expected": "number",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "bathrooms"
+    ],
+    "message": "Invalid input: expected number, received string"
+  },
+  {
+    "expected": "number",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "area"
+    ],
+    "message": "Invalid input: expected number, received string"
+  },
+  {
+    "expected": "boolean",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "isPremium"
+    ],
+    "message": "Invalid input: expected boolean, received string"
+  }
+]
+2026-03-31 17:28:39:2839 error: POST /api/v1/properties - 400 - 33244ms
+2026-03-31 17:31:30:3130 error: [Error Handler] [
+  {
+    "expected": "number",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "price"
+    ],
+    "message": "Invalid input: expected number, received string"
+  },
+  {
+    "expected": "number",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "bedrooms"
+    ],
+    "message": "Invalid input: expected number, received string"
+  },
+  {
+    "expected": "number",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "bathrooms"
+    ],
+    "message": "Invalid input: expected number, received string"
+  },
+  {
+    "expected": "number",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "area"
+    ],
+    "message": "Invalid input: expected number, received string"
+  },
+  {
+    "expected": "boolean",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "isPremium"
+    ],
+    "message": "Invalid input: expected boolean, received string"
+  },
+  {
+    "expected": "boolean",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "isFeatured"
+    ],
+    "message": "Invalid input: expected boolean, received string"
+  }
+]
+2026-03-31 17:31:30:3130 error: POST /api/v1/properties - 400 - 16167ms
+2026-03-31 17:31:56:3156 error: [Error Handler] [
+  {
+    "expected": "number",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "price"
+    ],
+    "message": "Invalid input: expected number, received string"
+  },
+  {
+    "expected": "number",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "bedrooms"
+    ],
+    "message": "Invalid input: expected number, received string"
+  },
+  {
+    "expected": "number",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "bathrooms"
+    ],
+    "message": "Invalid input: expected number, received string"
+  },
+  {
+    "expected": "number",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "area"
+    ],
+    "message": "Invalid input: expected number, received string"
+  },
+  {
+    "expected": "boolean",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "isPremium"
+    ],
+    "message": "Invalid input: expected boolean, received string"
+  },
+  {
+    "expected": "boolean",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "isFeatured"
+    ],
+    "message": "Invalid input: expected boolean, received string"
+  }
+]
+2026-03-31 17:31:56:3156 error: POST /api/v1/properties - 400 - 15591ms
+2026-03-31 17:34:06:346 error: [Error Handler] 
+Invalid `prisma.property.create()` invocation in
+F:\level-2-assignment\real-state-server\src\app\modules\property\property.service.ts:20:40
+
+  17 
+  18 const createProperty = async (payload: IProperty) => {
+  19   const { images, thumbnail, ...propertyData } = payload;
+→ 20   const result = await prisma.property.create({
+         data: {
+           title: "test for agent property",
+           description: "ddfhdsfsd",
+           location: "Bogura",
+           address: "",
+           type: "HOUSE",
+           listingType: "RENT",
+           status: "AVAILABLE",
+           price: "5000",
+                  ~~~~~~
+           bedrooms: "2",
+           bathrooms: "1",
+           area: "200",
+           isPremium: "true",
+           isFeatured: "false",
+           agentId: "2TsuCkx7KArjDdCpKyjI7SYHBpdtHCe6",
+           thumbnail: "https://res.cloudinary.com/ddxqljriw/image/upload/v1774956837/real-estate/images/hero-city-1774956833025.jpg.jpg",
+           propertyImages: {
+             create: [
+               {
+                 url: "https://res.cloudinary.com/ddxqljriw/image/upload/v1774956840/real-estate/images/hero-city-1774956836006.jpg.jpg"
+               },
+               {
+                 url: "https://res.cloudinary.com/ddxqljriw/image/upload/v1774956842/real-estate/images/clickerhappy-living-room-2732939-1774956838604.jpg.jpg"
+               },
+               {
+                 url: "https://res.cloudinary.com/ddxqljriw/image/upload/v1774956845/real-estate/images/keresi72-wall-4160601920-1774956840151.jpg.jpg"
+               },
+               {
+                 url: "https://res.cloudinary.com/ddxqljriw/image/upload/v1774956847/real-estate/images/pexels-apartment-1851201-1774956843153.jpg.jpg"
+               }
+             ]
+           }
+         }
+       })
+
+Argument `price`: Invalid value provided. Expected Float, provided String.
+2026-03-31 17:34:06:346 error: POST /api/v1/properties - 400 - 16885ms
+2026-03-31 17:55:59:5559 error: POST /api/auth/sign-up/email - 422 - 2972ms
+2026-03-31 17:56:20:5620 error: POST /api/auth/sign-up/email - 422 - 2803ms
+2026-03-31 18:52:42:5242 error: GET /api/v1/properties/undefined - 404 - 667ms
+2026-03-31 18:54:20:5420 error: GET /api/v1/properties/undefined - 404 - 297ms
+2026-03-31 18:55:54:5554 error: GET /api/v1/properties/undefined - 404 - 316ms
+2026-03-31 18:56:25:5625 error: GET /api/v1/properties/undefined - 404 - 311ms
+2026-03-31 18:58:27:5827 error: [Error Handler] 
+Invalid `prisma.property.update()` invocation in
+F:\level-2-assignment\real-state-server\src\app\modules\property\property.service.ts:96:40
+
+  93     "You are not authorized to update this property",
+  94   );
+  95 }
+→ 96 const result = await prisma.property.update({
+       where: {
+         id: "f7ced2db-d697-400f-89a5-75d544369553",
+         agentId: "2TsuCkx7KArjDdCpKyjI7SYHBpdtHCe6"
+       },
+       data: {
+         title: "Dolore cillum dolore",
+         description: "In et non veritatis ",
+         location: "Facere dolores vitae",
+         address: "Eaque vero nostrum a",
+         type: "LAND",
+         listingType: "SALE",
+         status: "RENTED",
+         price: "727",
+                ~~~~~
+         bedrooms: "30",
+         bathrooms: "43",
+         area: "81",
+         isPremium: "true",
+         thumbnail: undefined,
+         propertyImages: {
+           create: []
+         }
+       }
+     })
+
+Argument `price`: Invalid value provided. Expected Float or FloatFieldUpdateOperationsInput, provided String.
+2026-03-31 18:58:27:5827 error: PUT /api/v1/properties/f7ced2db-d697-400f-89a5-75d544369553 - 400 - 969ms
+2026-03-31 18:58:43:5843 error: [Error Handler] 
+Invalid `prisma.property.update()` invocation in
+F:\level-2-assignment\real-state-server\src\app\modules\property\property.service.ts:96:40
+
+  93     "You are not authorized to update this property",
+  94   );
+  95 }
+→ 96 const result = await prisma.property.update({
+       where: {
+         id: "f7ced2db-d697-400f-89a5-75d544369553",
+         agentId: "2TsuCkx7KArjDdCpKyjI7SYHBpdtHCe6"
+       },
+       data: {
+         title: "Dolore cillum dolore",
+         description: "In et non veritatis ",
+         location: "Facere dolores vitae",
+         address: "Eaque vero nostrum a",
+         type: "LAND",
+         listingType: "SALE",
+         status: "RENTED",
+         price: "727",
+                ~~~~~
+         bedrooms: "30",
+         bathrooms: "43",
+         area: "81",
+         isPremium: "true",
+         thumbnail: undefined,
+         propertyImages: {
+           create: []
+         }
+       }
+     })
+
+Argument `price`: Invalid value provided. Expected Float or FloatFieldUpdateOperationsInput, provided String.
+2026-03-31 18:58:43:5843 error: PUT /api/v1/properties/f7ced2db-d697-400f-89a5-75d544369553 - 400 - 906ms
+2026-03-31 19:26:35:2635 error: [Error Handler] Cannot delete a property that is currently rented
+2026-03-31 19:26:35:2635 error: DELETE /api/v1/properties/f7ced2db-d697-400f-89a5-75d544369553 - 400 - 884ms
+2026-03-31 19:27:12:2712 error: [Error Handler] Property not found
+2026-03-31 19:27:12:2712 error: DELETE /api/v1/properties/266a03e9-1dae-43ac-854a-4df82df9cbbd - 404 - 861ms
+2026-03-31 19:39:19:3919 error: [Error Handler] Review not found.
+2026-03-31 19:39:19:3919 error: GET /api/v1/reviews/agent - 404 - 2651ms
+2026-03-31 19:39:23:3923 error: [Error Handler] Review not found.
+2026-03-31 19:39:23:3923 error: GET /api/v1/reviews/agent - 404 - 304ms
+2026-03-31 19:39:37:3937 error: [Error Handler] Review not found.
+2026-03-31 19:39:37:3937 error: GET /api/v1/reviews/agent - 404 - 2580ms
+2026-03-31 19:41:37:4137 error: [Error Handler] Review not found.
+2026-03-31 19:41:37:4137 error: GET /api/v1/reviews/agent - 404 - 2537ms
+2026-03-31 19:41:41:4141 error: [Error Handler] Review not found.
+2026-03-31 19:41:41:4141 error: GET /api/v1/reviews/agent - 404 - 291ms
+2026-03-31 19:43:13:4313 error: [Error Handler] Review not found.
+2026-03-31 19:43:13:4313 error: GET /api/v1/reviews/agent - 404 - 2584ms
+2026-03-31 19:44:32:4432 error: [Error Handler] Review not found.
+2026-03-31 19:44:32:4432 error: GET /api/v1/reviews/agent - 404 - 2647ms
+2026-03-31 19:47:50:4750 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-03-31 19:47:50:4750 error: POST /api/v1/reviews - 403 - 645ms
+2026-03-31 19:50:55:5055 error: [Error Handler] Review not found.
+2026-03-31 19:50:55:5055 error: GET /api/v1/reviews/agent - 404 - 282ms
+2026-03-31 19:51:26:5126 error: [Error Handler] Review not found.
+2026-03-31 19:51:26:5126 error: GET /api/v1/reviews/agent - 404 - 2591ms
+2026-03-31 20:05:42:542 error: [Error Handler] Review not found.
+2026-03-31 20:05:42:542 error: GET /api/v1/reviews/agent - 404 - 309ms
+2026-03-31 20:05:58:558 error: [Error Handler] Review not found.
+2026-03-31 20:05:58:558 error: GET /api/v1/reviews/agent - 404 - 2483ms
+2026-03-31 20:07:33:733 error: [Error Handler] Review not found.
+2026-03-31 20:07:33:733 error: GET /api/v1/reviews/agent - 404 - 2913ms
+2026-03-31 20:07:34:734 error: [Error Handler] Review not found.
+2026-03-31 20:07:34:734 error: GET /api/v1/reviews/agent - 404 - 296ms
+2026-03-31 20:07:53:753 error: [Error Handler] Review not found.
+2026-03-31 20:07:53:753 error: GET /api/v1/reviews/agent - 404 - 2568ms
+2026-03-31 20:07:59:759 error: GET /favicon.ico - 404 - 3ms
+2026-03-31 20:09:18:918 error: [Error Handler] Review not found.
+2026-03-31 20:09:18:918 error: GET /api/v1/reviews/agent - 404 - 281ms
+2026-03-31 20:15:16:1516 error: [Error Handler] Review not found.
+2026-03-31 20:15:16:1516 error: GET /api/v1/reviews/agent - 404 - 5865ms
+2026-03-31 20:16:20:1620 error: [Error Handler] Review not found.
+2026-03-31 20:16:20:1620 error: GET /api/v1/reviews/agent - 404 - 2589ms
+2026-03-31 20:16:22:1622 error: [Error Handler] Review not found.
+2026-03-31 20:16:22:1622 error: GET /api/v1/reviews/user - 404 - 309ms
+2026-03-31 20:16:22:1622 error: [Error Handler] Review not found.
+2026-03-31 20:16:22:1622 error: GET /api/v1/reviews/user - 404 - 295ms
+2026-03-31 20:16:49:1649 error: [Error Handler] Review not found.
+2026-03-31 20:16:49:1649 error: GET /api/v1/reviews/user - 404 - 2577ms
+2026-03-31 20:20:15:2015 error: [Error Handler] Review not found.
+2026-03-31 20:20:15:2015 error: GET /api/v1/reviews/agent - 404 - 5962ms
+2026-03-31 20:20:17:2017 error: [Error Handler] Review not found.
+2026-03-31 20:20:17:2017 error: GET /api/v1/reviews/agent - 404 - 282ms
+2026-03-31 20:20:38:2038 error: [Error Handler] Review not found.
+2026-03-31 20:20:38:2038 error: GET /api/v1/reviews/agent - 404 - 2482ms
+2026-03-31 20:20:39:2039 error: [Error Handler] Review not found.
+2026-03-31 20:20:39:2039 error: GET /api/v1/reviews/agent - 404 - 292ms
+2026-03-31 20:20:55:2055 error: [Error Handler] Review not found.
+2026-03-31 20:20:55:2055 error: GET /api/v1/reviews/agent - 404 - 2601ms
+2026-03-31 20:21:41:2141 error: [Error Handler] Review not found.
+2026-03-31 20:21:41:2141 error: GET /api/v1/reviews/agent - 404 - 293ms
+2026-03-31 20:22:44:2244 error: [Error Handler] Review not found.
+2026-03-31 20:22:44:2244 error: GET /api/v1/reviews/agent - 404 - 2464ms
+2026-03-31 20:22:45:2245 error: [Error Handler] Review not found.
+2026-03-31 20:22:45:2245 error: GET /api/v1/reviews/agent - 404 - 278ms
+2026-03-31 20:22:48:2248 error: [Error Handler] Review not found.
+2026-03-31 20:22:48:2248 error: GET /api/v1/reviews/agent - 404 - 277ms
+2026-03-31 20:22:49:2249 error: [Error Handler] Review not found.
+2026-03-31 20:22:49:2249 error: GET /api/v1/reviews/agent - 404 - 282ms
+2026-03-31 20:22:52:2252 error: [Error Handler] Review not found.
+2026-03-31 20:22:52:2252 error: GET /api/v1/reviews/agent - 404 - 278ms
+2026-03-31 20:23:28:2328 error: [Error Handler] Review not found.
+2026-03-31 20:23:28:2328 error: GET /api/v1/reviews/agent - 404 - 2632ms
+2026-03-31 20:23:29:2329 error: [Error Handler] Review not found.
+2026-03-31 20:23:29:2329 error: GET /api/v1/reviews/user - 404 - 280ms
+2026-03-31 20:23:30:2330 error: [Error Handler] Review not found.
+2026-03-31 20:23:30:2330 error: GET /api/v1/reviews/user - 404 - 278ms
+2026-03-31 20:24:04:244 error: [Error Handler] Review not found.
+2026-03-31 20:24:04:244 error: GET /api/v1/reviews/user - 404 - 2568ms
+2026-03-31 20:24:05:245 error: [Error Handler] Review not found.
+2026-03-31 20:24:05:245 error: GET /api/v1/reviews/user - 404 - 308ms
+2026-03-31 20:25:41:2541 error: [Error Handler] Review not found.
+2026-03-31 20:25:41:2541 error: GET /api/v1/reviews/user - 404 - 2496ms
+2026-03-31 20:27:00:270 error: [Error Handler] Review not found.
+2026-03-31 20:27:00:270 error: GET /api/v1/reviews/agent - 404 - 2581ms
+2026-03-31 20:27:01:271 error: [Error Handler] Review not found.
+2026-03-31 20:27:01:271 error: GET /api/v1/reviews/agent - 404 - 304ms
+2026-03-31 20:27:02:272 error: [Error Handler] Review not found.
+2026-03-31 20:27:02:272 error: GET /api/v1/reviews/agent - 404 - 2566ms
+2026-03-31 20:28:35:2835 error: [Error Handler] Review not found.
+2026-03-31 20:28:35:2835 error: GET /api/v1/reviews/agent - 404 - 2580ms
+2026-03-31 20:29:06:296 error: [Error Handler] Review not found.
+2026-03-31 20:29:06:296 error: GET /api/v1/reviews/agent - 404 - 2628ms
+2026-03-31 20:29:32:2932 error: [Error Handler] Review not found.
+2026-03-31 20:29:32:2932 error: GET /api/v1/reviews/agent - 404 - 2621ms
+2026-03-31 20:30:35:3035 error: [Error Handler] Review not found.
+2026-03-31 20:30:35:3035 error: GET /api/v1/reviews/agent - 404 - 2574ms
+2026-03-31 20:30:36:3036 error: [Error Handler] Review not found.
+2026-03-31 20:30:36:3036 error: GET /api/v1/reviews/agent - 404 - 298ms
+2026-03-31 20:30:36:3036 error: [Error Handler] Review not found.
+2026-03-31 20:30:36:3036 error: GET /api/v1/reviews/agent - 404 - 294ms
+2026-03-31 20:32:17:3217 error: [Error Handler] Review not found.
+2026-03-31 20:32:17:3217 error: GET /api/v1/reviews/agent - 404 - 284ms
+2026-03-31 20:33:14:3314 error: [Error Handler] Review not found.
+2026-03-31 20:33:14:3314 error: GET /api/v1/reviews/agent - 404 - 2576ms
+2026-03-31 20:33:19:3319 error: [Error Handler] Review not found.
+2026-03-31 20:33:19:3319 error: GET /api/v1/reviews/agent - 404 - 288ms
+2026-03-31 20:37:48:3748 error: [Error Handler] Review not found.
+2026-03-31 20:37:48:3748 error: GET /api/v1/reviews/my-reviews - 404 - 2695ms
+2026-03-31 20:37:49:3749 error: [Error Handler] Review not found.
+2026-03-31 20:37:49:3749 error: GET /api/v1/reviews/my-reviews - 404 - 308ms
+2026-03-31 20:37:50:3750 error: [Error Handler] Review not found.
+2026-03-31 20:37:50:3750 error: GET /api/v1/reviews/my-reviews - 404 - 309ms
+2026-03-31 20:38:03:383 error: [Error Handler] Review not found.
+2026-03-31 20:38:03:383 error: GET /api/v1/reviews/my-reviews - 404 - 2619ms
+2026-03-31 20:39:08:398 error: [Error Handler] Review not found.
+2026-03-31 20:39:08:398 error: GET /api/v1/reviews/my-reviews - 404 - 2493ms
+2026-03-31 20:39:45:3945 error: [Error Handler] Review not found.
+2026-03-31 20:39:45:3945 error: GET /api/v1/reviews/my-reviews - 404 - 2616ms
+2026-03-31 20:41:14:4114 error: [Error Handler] Review not found.
+2026-03-31 20:41:14:4114 error: GET /api/v1/reviews/my-reviews - 404 - 2494ms
+2026-03-31 20:41:22:4122 error: [Error Handler] Review not found.
+2026-03-31 20:41:22:4122 error: GET /api/v1/reviews/my-reviews - 404 - 282ms
+2026-03-31 20:41:24:4124 error: [Error Handler] Review not found.
+2026-03-31 20:41:24:4124 error: GET /api/v1/reviews/my-reviews - 404 - 283ms
+2026-03-31 20:42:31:4231 error: [Error Handler] Review not found.
+2026-03-31 20:42:31:4231 error: GET /api/v1/reviews/my-reviews - 404 - 2591ms
+2026-03-31 20:43:17:4317 error: [Error Handler] Review not found.
+2026-03-31 20:43:17:4317 error: GET /api/v1/reviews/my-reviews - 404 - 2651ms
+2026-03-31 20:45:22:4522 error: [Error Handler] Review not found.
+2026-03-31 20:45:22:4522 error: GET /api/v1/reviews/my-reviews - 404 - 2787ms
+2026-03-31 20:47:18:4718 error: [Error Handler] Review not found.
+2026-03-31 20:47:18:4718 error: GET /api/v1/reviews/my-reviews - 404 - 301ms
+2026-03-31 20:47:52:4752 error: [Error Handler] Review not found.
+2026-03-31 20:47:52:4752 error: GET /api/v1/reviews/my-reviews - 404 - 2629ms
+2026-03-31 20:49:11:4911 error: GET /api/v1/reviews/my-reviews/c893ae01-277a-4c98-ab94-76909f2bc382 - 404 - 7ms
+2026-03-31 20:50:17:5017 error: [Error Handler] Review not found.
+2026-03-31 20:50:17:5017 error: GET /api/v1/reviews/my-reviews - 404 - 2835ms
+2026-03-31 20:56:01:561 error: [Error Handler] Review not found.
+2026-03-31 20:56:01:561 error: GET /api/v1/reviews/agent - 404 - 3815ms
+2026-03-31 20:56:06:566 error: [Error Handler] Review not found.
+2026-03-31 20:56:06:566 error: GET /api/v1/reviews/user - 404 - 913ms
+2026-03-31 20:56:25:5625 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-03-31 20:56:25:5625 error: GET /api/v1/reviews/my-reviews/c893ae01-277a-4c98-ab94-76909f2bc382 - 403 - 32509ms
+2026-03-31 20:56:43:5643 error: [Error Handler] Review not found.
+2026-03-31 20:56:43:5643 error: GET /api/v1/reviews/user - 404 - 2555ms
+2026-03-31 20:56:48:5648 error: [Error Handler] Review not found.
+2026-03-31 20:56:48:5648 error: GET /api/v1/reviews/user - 404 - 289ms
+2026-03-31 20:59:34:5934 error: [Error Handler] Review not found.
+2026-03-31 20:59:34:5934 error: GET /api/v1/reviews/agent - 404 - 319ms
+2026-03-31 21:00:29:029 error: [Error Handler] Review not found.
+2026-03-31 21:00:29:029 error: GET /api/v1/reviews/agent - 404 - 314ms
+2026-03-31 21:00:33:033 error: [Error Handler] Review not found.
+2026-03-31 21:00:33:033 error: GET /api/v1/reviews/agent - 404 - 300ms
+2026-03-31 21:00:33:033 error: [Error Handler] Review not found.
+2026-03-31 21:00:33:033 error: GET /api/v1/reviews/agent - 404 - 284ms
+2026-03-31 21:02:53:253 error: [Error Handler] Review not found.
+2026-03-31 21:02:53:253 error: GET /api/v1/reviews/agent - 404 - 279ms
+2026-03-31 21:02:56:256 error: [Error Handler] Review not found.
+2026-03-31 21:02:56:256 error: GET /api/v1/reviews/agent - 404 - 280ms
+2026-03-31 21:06:50:650 error: [Error Handler] Review not found.
+2026-03-31 21:06:50:650 error: GET /api/v1/reviews/agent - 404 - 313ms
+2026-03-31 21:06:58:658 error: [Error Handler] Review not found.
+2026-03-31 21:06:58:658 error: GET /api/v1/reviews/agent - 404 - 308ms
+2026-03-31 21:10:49:1049 error: [Error Handler] Review not found.
+2026-03-31 21:10:49:1049 error: GET /api/v1/reviews/agent - 404 - 300ms
+2026-03-31 21:10:52:1052 error: [Error Handler] Review not found.
+2026-03-31 21:10:52:1052 error: GET /api/v1/reviews/agent - 404 - 291ms
+2026-03-31 21:10:57:1057 error: [Error Handler] Review not found.
+2026-03-31 21:10:57:1057 error: GET /api/v1/reviews/agent - 404 - 294ms
+2026-03-31 21:11:28:1128 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-03-31 21:11:28:1128 error: GET /api/v1/reviews/my-reviews/c893ae01-277a-4c98-ab94-76909f2bc382 - 403 - 585ms
+2026-03-31 21:11:29:1129 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-03-31 21:11:29:1129 error: GET /api/v1/reviews/my-reviews/c893ae01-277a-4c98-ab94-76909f2bc382 - 403 - 582ms
+2026-03-31 21:13:15:1315 error: [Error Handler] Review not found.
+2026-03-31 21:13:15:1315 error: GET /api/v1/reviews/agent - 404 - 298ms
+2026-03-31 21:13:19:1319 error: [Error Handler] Review not found.
+2026-03-31 21:13:19:1319 error: GET /api/v1/reviews/agent - 404 - 292ms
+2026-03-31 21:25:02:252 error: [Error Handler] Review not found.
+2026-03-31 21:25:02:252 error: GET /api/v1/reviews/agent - 404 - 292ms
+2026-03-31 21:31:24:3124 error: [Error Handler] Review not found.
+2026-03-31 21:31:24:3124 error: GET /api/v1/reviews/user - 404 - 2810ms
+2026-03-31 21:37:04:374 error: GET /api/v1/bookings - 404 - 0ms
+2026-03-31 21:37:11:3711 error: GET /api/v1/bookings - 404 - 0ms
+2026-03-31 21:37:40:3740 error: GET /api/v1/bookings - 404 - 1ms
+2026-03-31 21:39:21:3921 error: GET /api/v1/bookings - 404 - 1ms
+2026-03-31 21:39:22:3922 error: GET /api/v1/bookings - 404 - 1ms
+2026-03-31 21:40:13:4013 error: GET /api/v1/bookings - 404 - 1ms
+2026-03-31 21:40:47:4047 error: GET /api/v1/bookings - 404 - 0ms
+2026-03-31 21:43:34:4334 error: [Error Handler] 
+Invalid `prisma.user.update()` invocation in
+F:\level-2-assignment\real-state-server\src\app\modules\user\user.service.ts:13:41
+
+  10 };
+  11 
+  12 const updateUserStatus = async (userId: string, newStatus: UserStatus) => {
+→ 13   const updatedUser = await prisma.user.update({
+         where: {
+           id: "2TsuCkx7KArjDdCpKyjI7SYHBpdtHCe6"
+         },
+         data: {
+           status: "true"
+                   ~~~~~~
+         }
+       })
+
+Invalid value for argument `status`. Expected UserStatus.
+2026-03-31 21:43:34:4334 error: PATCH /api/v1/users/2TsuCkx7KArjDdCpKyjI7SYHBpdtHCe6 - 400 - 986ms
+2026-03-31 21:51:04:514 error: POST /api/auth/sign-in/email - 400 - 2636ms
+2026-03-31 21:54:47:5447 error: GET /api/v1/bookings - 404 - 1ms
+2026-03-31 21:54:47:5447 error: GET /api/v1/bookings - 404 - 1ms
+2026-03-31 21:56:26:5626 error: GET /api/v1/bookings - 404 - 2ms
+2026-03-31 21:56:27:5627 error: GET /api/v1/bookings - 404 - 1ms
+2026-03-31 21:56:28:5628 error: GET /api/v1/bookings - 404 - 1ms
+2026-03-31 21:56:32:5632 error: GET /api/v1/bookings - 404 - 1ms
+2026-04-01 00:09:59:959 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-04-01 00:09:59:959 error: GET /api/v1/payments/settings - 401 - 16ms
+2026-04-01 00:10:09:109 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-04-01 00:10:09:109 error: GET /api/v1/payments/settings - 401 - 6ms
+2026-04-01 00:10:11:1011 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-04-01 00:10:11:1011 error: GET /api/v1/reviews/my-reviews/5140d69c-f1ed-48d2-b49e-36a9cd19078e - 401 - 5ms
+2026-04-01 00:10:11:1011 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-04-01 00:10:11:1011 error: GET /api/v1/reviews/my-reviews/5140d69c-f1ed-48d2-b49e-36a9cd19078e - 401 - 7ms
+2026-04-01 07:28:03:283 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-04-01 07:28:03:283 error: GET /api/v1/payments/settings - 401 - 19ms
+2026-04-01 07:28:12:2812 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-04-01 07:28:12:2812 error: GET /api/v1/payments/settings - 401 - 9ms
+2026-04-01 07:28:14:2814 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-04-01 07:28:14:2814 error: GET /api/v1/reviews/my-reviews/c893ae01-277a-4c98-ab94-76909f2bc382 - 401 - 10ms
+2026-04-01 07:28:14:2814 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-04-01 07:28:14:2814 error: GET /api/v1/reviews/my-reviews/c893ae01-277a-4c98-ab94-76909f2bc382 - 401 - 10ms
+2026-04-01 07:38:51:3851 error: [Error Handler] payload.visitDate.toISOString is not a function
+2026-04-01 07:38:51:3851 error: POST /api/v1/payments/checkout/booking - 500 - 1586ms
+2026-04-01 08:20:19:2019 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-04-01 08:20:19:2019 error: GET /api/v1/payments/my-payments - 401 - 303ms
+2026-04-01 08:27:48:2748 error: [Error Handler] Review not found.
+2026-04-01 08:27:48:2748 error: GET /api/v1/reviews/agent - 404 - 284ms
+2026-04-01 08:42:14:4214 error: [Error Handler] Review not found.
+2026-04-01 08:42:14:4214 error: GET /api/v1/reviews/agent - 404 - 305ms
+2026-04-01 08:42:17:4217 error: [Error Handler] Review not found.
+2026-04-01 08:42:17:4217 error: GET /api/v1/reviews/agent - 404 - 304ms
+2026-04-01 08:44:46:4446 error: [Error Handler] Review not found.
+2026-04-01 08:44:46:4446 error: GET /api/v1/reviews/agent - 404 - 293ms
+2026-04-01 08:44:49:4449 error: [Error Handler] Review not found.
+2026-04-01 08:44:49:4449 error: GET /api/v1/reviews/agent - 404 - 291ms
+2026-04-01 13:03:47:347 error: [Error Handler] 
+Invalid `prisma.bookingRequest.update()` invocation in
+F:\level-2-assignment\real-state-server\src\app\modules\booking\booking.service.ts:320:31
+
+  317   );
+  318 }
+  319 
+→ 320 await prisma.bookingRequest.update(
+Invalid input value: invalid input value for enum "RequestStatus": "CANCELLATION_REQUESTED"
+2026-04-01 13:03:47:347 error: DELETE /api/v1/bookings/d87ae38d-f3d7-4312-a030-23842315058a - 400 - 1476ms
+2026-04-01 14:46:01:461 error: POST /api/auth/sign-in/email - 401 - 3318ms
+2026-04-01 14:50:08:508 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-04-01 14:50:08:508 error: GET /api/v1/reviews/my-reviews/5140d69c-f1ed-48d2-b49e-36a9cd19078e - 401 - 33ms
+2026-04-01 14:50:08:508 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-04-01 14:50:08:508 error: GET /api/v1/reviews/my-reviews/5140d69c-f1ed-48d2-b49e-36a9cd19078e - 401 - 13ms
+2026-04-01 17:41:17:4117 error: [Error Handler] [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 1,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title is required"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 1,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description is required"
+  },
+  {
+    "origin": "number",
+    "code": "too_small",
+    "minimum": 0,
+    "inclusive": false,
+    "path": [
+      "body",
+      "price"
+    ],
+    "message": "Price must be a positive number"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 1,
+    "inclusive": true,
+    "path": [
+      "body",
+      "location"
+    ],
+    "message": "Location is required"
+  },
+  {
+    "origin": "number",
+    "code": "too_small",
+    "minimum": 0,
+    "inclusive": false,
+    "path": [
+      "body",
+      "area"
+    ],
+    "message": "Area must be a positive number"
+  }
+]
+2026-04-01 17:41:17:4117 error: POST /api/v1/properties - 400 - 6119ms
+2026-04-01 17:42:59:4259 error: [Error Handler] [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 1,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title is required"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 1,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description is required"
+  },
+  {
+    "origin": "number",
+    "code": "too_small",
+    "minimum": 0,
+    "inclusive": false,
+    "path": [
+      "body",
+      "price"
+    ],
+    "message": "Price must be a positive number"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 1,
+    "inclusive": true,
+    "path": [
+      "body",
+      "location"
+    ],
+    "message": "Location is required"
+  },
+  {
+    "origin": "number",
+    "code": "too_small",
+    "minimum": 0,
+    "inclusive": false,
+    "path": [
+      "body",
+      "area"
+    ],
+    "message": "Area must be a positive number"
+  }
+]
+2026-04-01 17:42:59:4259 error: POST /api/v1/properties - 400 - 5835ms
+2026-04-01 17:44:14:4414 error: [Error Handler] [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 1,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title is required"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 1,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description is required"
+  },
+  {
+    "origin": "number",
+    "code": "too_small",
+    "minimum": 0,
+    "inclusive": false,
+    "path": [
+      "body",
+      "price"
+    ],
+    "message": "Price must be a positive number"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 1,
+    "inclusive": true,
+    "path": [
+      "body",
+      "location"
+    ],
+    "message": "Location is required"
+  },
+  {
+    "origin": "number",
+    "code": "too_small",
+    "minimum": 0,
+    "inclusive": false,
+    "path": [
+      "body",
+      "area"
+    ],
+    "message": "Area must be a positive number"
+  }
+]
+2026-04-01 17:44:14:4414 error: POST /api/v1/properties - 400 - 6182ms
+2026-04-01 17:44:48:4448 error: [Error Handler] [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 1,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title is required"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 1,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description is required"
+  },
+  {
+    "origin": "number",
+    "code": "too_small",
+    "minimum": 0,
+    "inclusive": false,
+    "path": [
+      "body",
+      "price"
+    ],
+    "message": "Price must be a positive number"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 1,
+    "inclusive": true,
+    "path": [
+      "body",
+      "location"
+    ],
+    "message": "Location is required"
+  },
+  {
+    "origin": "number",
+    "code": "too_small",
+    "minimum": 0,
+    "inclusive": false,
+    "path": [
+      "body",
+      "area"
+    ],
+    "message": "Area must be a positive number"
+  }
+]
+2026-04-01 17:44:48:4448 error: POST /api/v1/properties - 400 - 5991ms
+2026-04-01 17:52:19:5219 error: [Error Handler] [
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 1,
+    "inclusive": true,
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title is required"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 1,
+    "inclusive": true,
+    "path": [
+      "body",
+      "description"
+    ],
+    "message": "Description is required"
+  },
+  {
+    "origin": "number",
+    "code": "too_small",
+    "minimum": 0,
+    "inclusive": false,
+    "path": [
+      "body",
+      "price"
+    ],
+    "message": "Price must be a positive number"
+  },
+  {
+    "origin": "string",
+    "code": "too_small",
+    "minimum": 1,
+    "inclusive": true,
+    "path": [
+      "body",
+      "location"
+    ],
+    "message": "Location is required"
+  },
+  {
+    "origin": "number",
+    "code": "too_small",
+    "minimum": 0,
+    "inclusive": false,
+    "path": [
+      "body",
+      "area"
+    ],
+    "message": "Area must be a positive number"
+  }
+]
+2026-04-01 17:52:19:5219 error: POST /api/v1/properties - 400 - 6169ms
+2026-04-01 20:28:37:2837 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-04-01 20:28:37:2837 error: GET /api/v1/reviews/my-reviews/61e87441-d7c3-4c6d-9616-f53a2046771c - 403 - 623ms
+2026-04-01 20:28:38:2838 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-04-01 20:28:38:2838 error: GET /api/v1/reviews/my-reviews/61e87441-d7c3-4c6d-9616-f53a2046771c - 403 - 607ms
+2026-04-02 17:46:11:4611 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-04-02 17:46:11:4611 error: GET /api/v1/reviews/my-reviews/5140d69c-f1ed-48d2-b49e-36a9cd19078e - 401 - 38ms
+2026-04-02 17:46:11:4611 error: [Error Handler] Unauthorized! Please log in to access this resource.
+2026-04-02 17:46:11:4611 error: GET /api/v1/reviews/my-reviews/5140d69c-f1ed-48d2-b49e-36a9cd19078e - 401 - 8ms
+2026-04-02 19:57:21:5721 error: [Error Handler] [
+  {
+    "code": "invalid_value",
+    "values": [
+      "ADMIN",
+      "AGENT",
+      "USER"
+    ],
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "Invalid option: expected one of \"ADMIN\"|\"AGENT\"|\"USER\""
+  }
+]
+2026-04-02 19:57:21:5721 error: PATCH /api/v1/users/2TsuCkx7KArjDdCpKyjI7SYHBpdtHCe6 - 400 - 819ms
+2026-04-02 19:57:25:5725 error: [Error Handler] [
+  {
+    "code": "invalid_value",
+    "values": [
+      "ADMIN",
+      "AGENT",
+      "USER"
+    ],
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "Invalid option: expected one of \"ADMIN\"|\"AGENT\"|\"USER\""
+  }
+]
+2026-04-02 19:57:25:5725 error: PATCH /api/v1/users/2TsuCkx7KArjDdCpKyjI7SYHBpdtHCe6 - 400 - 553ms
+2026-04-02 19:58:03:583 error: [Error Handler] [
+  {
+    "code": "invalid_value",
+    "values": [
+      "ADMIN",
+      "AGENT",
+      "USER"
+    ],
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "Invalid option: expected one of \"ADMIN\"|\"AGENT\"|\"USER\""
+  }
+]
+2026-04-02 19:58:03:583 error: PATCH /api/v1/users/2TsuCkx7KArjDdCpKyjI7SYHBpdtHCe6 - 400 - 502ms
+2026-04-02 19:58:06:586 error: [Error Handler] [
+  {
+    "code": "invalid_value",
+    "values": [
+      "ADMIN",
+      "AGENT",
+      "USER"
+    ],
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "Invalid option: expected one of \"ADMIN\"|\"AGENT\"|\"USER\""
+  }
+]
+2026-04-02 19:58:06:586 error: PATCH /api/v1/users/2TsuCkx7KArjDdCpKyjI7SYHBpdtHCe6 - 400 - 476ms
+2026-04-02 19:58:16:5816 error: [Error Handler] [
+  {
+    "code": "invalid_value",
+    "values": [
+      "ADMIN",
+      "AGENT",
+      "USER"
+    ],
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "Invalid option: expected one of \"ADMIN\"|\"AGENT\"|\"USER\""
+  }
+]
+2026-04-02 19:58:16:5816 error: PATCH /api/v1/users/2TsuCkx7KArjDdCpKyjI7SYHBpdtHCe6 - 400 - 473ms
+2026-04-02 19:58:32:5832 error: [Error Handler] [
+  {
+    "code": "invalid_value",
+    "values": [
+      "ADMIN",
+      "AGENT",
+      "USER"
+    ],
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "Invalid option: expected one of \"ADMIN\"|\"AGENT\"|\"USER\""
+  }
+]
+2026-04-02 19:58:32:5832 error: PATCH /api/v1/users/2TsuCkx7KArjDdCpKyjI7SYHBpdtHCe6 - 400 - 524ms
+2026-04-02 20:12:47:1247 error: [Error Handler] Cannot set user to INACTIVE. User has active bookings.
+2026-04-02 20:12:47:1247 error: PATCH /api/v1/users/2TsuCkx7KArjDdCpKyjI7SYHBpdtHCe6 - 400 - 804ms
+2026-04-02 20:52:21:5221 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-04-02 20:52:21:5221 error: GET /api/v1/reviews/my-reviews/9a396092-6e61-460f-897e-5b687b2e2965 - 403 - 1795ms
+2026-04-02 20:52:23:5223 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-04-02 20:52:23:5223 error: GET /api/v1/reviews/my-reviews/9a396092-6e61-460f-897e-5b687b2e2965 - 403 - 1559ms
+2026-04-05 12:35:16:3516 error: POST /api/auth/sign-in/email - 401 - 2767ms
