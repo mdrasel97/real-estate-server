@@ -26,8 +26,10 @@ app.post(
   express.raw({ type: "application/json" }),
   paymentController.handleStripeWebhook,
 );
-app.use(express.json({ limit: "16kb" }));
-app.use(express.urlencoded({ extended: true, limit: "16kb" }));
+
+// Increase payload size limits for chat with large context
+app.use(express.json({ limit: "2mb" }));
+app.use(express.urlencoded({ extended: true, limit: "2mb" }));
 app.use(
   cors({
     origin: (origin, callback) => {
@@ -46,7 +48,7 @@ app.get("/", (req, res) => {
   sendResponse(res, {
     statusCode: StatusCodes.OK,
     success: true,
-    message: `Health Care Server is running successfully! Your IP address is ${ip}`,
+    message: `Real Estate Server is running successfully! Your IP address is ${ip}`,
   });
   res.end();
 });

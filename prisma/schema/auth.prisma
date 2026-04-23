@@ -69,5 +69,3 @@ model Verification {
   @@index([identifier])
   @@map("verification")
 }
-
-// validation better auth schema 

@@ -16,6 +16,3 @@ declare global {
     }
   }
 }
-
-
-// express type added 
