@@ -2105,3 +2105,107 @@ Invalid input value: invalid input value for enum "RequestStatus": "CANCELLATION
 2026-04-09 19:44:56:4456 error: [Error Handler] request entity too large
 2026-04-09 19:44:56:4456 error: POST /api/v1/chat/stream - 500 - 8ms
 2026-04-23 10:49:46:4946 error: GET /favicon.ico - 404 - 3ms
+2026-04-23 11:30:47:3047 error: [Error Handler] Invalid Signature a472ec35c8abacef005c2b2316dcf12252e92226. String to sign - 'allowed_formats=jpg,jpeg,png,webp,pdf&folder=real-estate/images&public_id=pexels-apartment-1851201-1774756028117jpg-1776922236975.jpg&timestamp=1776922237'.
+2026-04-23 11:30:47:3047 error: POST /api/v1/properties - 500 - 11046ms
+2026-04-23 11:32:17:3217 error: [Error Handler] Server returned unexpected status code - 403
+2026-04-23 11:32:17:3217 error: POST /api/v1/properties - 500 - 12526ms
+2026-04-23 11:34:36:3436 error: [Error Handler] Server returned unexpected status code - 403
+2026-04-23 11:34:36:3436 error: POST /api/v1/properties - 500 - 9456ms
+2026-04-23 11:42:37:4237 error: [Error Handler] Server returned unexpected status code - 403
+2026-04-23 11:42:37:4237 error: POST /api/v1/properties - 500 - 10067ms
+2026-04-23 11:47:16:4716 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-04-23 11:47:16:4716 error: GET /api/v1/reviews/my-reviews/eda98281-26b3-4bab-ab20-18e8f8b3326f - 403 - 695ms
+2026-04-23 11:47:17:4717 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-04-23 11:47:17:4717 error: GET /api/v1/reviews/my-reviews/eda98281-26b3-4bab-ab20-18e8f8b3326f - 403 - 1034ms
+2026-04-23 11:47:34:4734 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-04-23 11:47:34:4734 error: GET /api/v1/reviews/my-reviews/eda98281-26b3-4bab-ab20-18e8f8b3326f - 403 - 657ms
+2026-04-23 11:47:35:4735 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-04-23 11:47:35:4735 error: GET /api/v1/reviews/my-reviews/eda98281-26b3-4bab-ab20-18e8f8b3326f - 403 - 658ms
+2026-04-23 19:15:02:152 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-04-23 19:15:02:152 error: GET /api/v1/reviews/my-reviews/cc6fdce1-968a-4d34-9173-374dcc4a122d - 403 - 782ms
+2026-04-23 19:15:03:153 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-04-23 19:15:03:153 error: GET /api/v1/reviews/my-reviews/cc6fdce1-968a-4d34-9173-374dcc4a122d - 403 - 577ms
+2026-04-23 19:15:31:1531 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-04-23 19:15:31:1531 error: POST /api/v1/reviews - 403 - 4111ms
+2026-04-23 19:15:58:1558 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-04-23 19:15:58:1558 error: GET /api/v1/reviews/my-reviews/cc6fdce1-968a-4d34-9173-374dcc4a122d - 403 - 640ms
+2026-04-23 19:15:59:1559 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-04-23 19:15:59:1559 error: GET /api/v1/reviews/my-reviews/cc6fdce1-968a-4d34-9173-374dcc4a122d - 403 - 634ms
+2026-04-23 19:16:39:1639 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-04-23 19:16:39:1639 error: POST /api/v1/reviews - 403 - 3824ms
+2026-04-23 19:20:01:201 error: [Error Handler] 
+Invalid `this.model.findMany()` invocation in
+D:\level-2\assainment\b6a5\real-estate-server\src\app\helper\Querybuilder.ts:455:18
+
+  452 this.model.count(
+  453   this.countQuery as Parameters<typeof this.model.count>[0],
+  454 ),
+→ 455 this.model.findMany(
+
+2026-04-23 19:20:01:201 error: GET /api/v1/properties/featured?limit=10 - 400 - 26036ms
+2026-04-23 19:20:25:2025 error: [Error Handler] 
+Invalid `this.model.findMany()` invocation in
+D:\level-2\assainment\b6a5\real-estate-server\src\app\helper\Querybuilder.ts:455:18
+
+  452 this.model.count(
+  453   this.countQuery as Parameters<typeof this.model.count>[0],
+  454 ),
+→ 455 this.model.findMany(
+
+2026-04-23 19:20:25:2025 error: GET /api/v1/properties/featured?limit=10 - 400 - 22381ms
+2026-04-23 19:20:37:2037 error: GET /api/auth/get-session - 500 - 22395ms
+2026-04-23 19:20:42:2042 error: [Error Handler] 
+Invalid `this.model.count()` invocation in
+D:\level-2\assainment\b6a5\real-estate-server\src\app\helper\Querybuilder.ts:452:18
+
+  449 
+  450 async execute(): Promise<IQueryResult<T>> {
+  451   const [total, data] = await Promise.all([
+→ 452     this.model.count(
+
+2026-04-23 19:20:42:2042 error: GET /api/v1/properties?page=1&limit=1&type=APARTMENT - 400 - 22368ms
+2026-04-23 19:20:42:2042 error: [Error Handler] 
+Invalid `this.model.count()` invocation in
+D:\level-2\assainment\b6a5\real-estate-server\src\app\helper\Querybuilder.ts:452:18
+
+  449 
+  450 async execute(): Promise<IQueryResult<T>> {
+  451   const [total, data] = await Promise.all([
+→ 452     this.model.count(
+
+2026-04-23 19:20:42:2042 error: GET /api/v1/properties?page=1&limit=1&type=HOUSE - 400 - 22384ms
+2026-04-23 19:20:42:2042 error: [Error Handler] 
+Invalid `this.model.count()` invocation in
+D:\level-2\assainment\b6a5\real-estate-server\src\app\helper\Querybuilder.ts:452:18
+
+  449 
+  450 async execute(): Promise<IQueryResult<T>> {
+  451   const [total, data] = await Promise.all([
+→ 452     this.model.count(
+
+2026-04-23 19:20:42:2042 error: GET /api/v1/properties?page=1&limit=1&type=LAND - 400 - 22395ms
+2026-04-23 19:20:42:2042 error: [Error Handler] 
+Invalid `this.model.findMany()` invocation in
+D:\level-2\assainment\b6a5\real-estate-server\src\app\helper\Querybuilder.ts:455:18
+
+  452 this.model.count(
+  453   this.countQuery as Parameters<typeof this.model.count>[0],
+  454 ),
+→ 455 this.model.findMany(
+
+2026-04-23 19:20:42:2042 error: GET /api/v1/properties?page=1&limit=1&type=COMMERCIAL - 400 - 22408ms
+2026-04-23 19:20:47:2047 error: [Error Handler] 
+Invalid `prisma.review.findMany()` invocation in
+D:\level-2\assainment\b6a5\real-estate-server\src\app\modules\review\review.service.ts:24:39
+
+  21 };
+  22 
+  23 const getAllReviews = async (propertyId?: string) => {
+→ 24   const reviews = await prisma.review.findMany(
+
+2026-04-23 19:20:47:2047 error: GET /api/v1/reviews - 400 - 27472ms
+2026-04-23 19:25:22:2522 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-04-23 19:25:22:2522 error: GET /api/v1/reviews/my-reviews/cc6fdce1-968a-4d34-9173-374dcc4a122d - 403 - 752ms
+2026-04-23 19:25:23:2523 error: [Error Handler] Access Forbidden! You don't have permission.
+2026-04-23 19:25:23:2523 error: GET /api/v1/reviews/my-reviews/cc6fdce1-968a-4d34-9173-374dcc4a122d - 403 - 657ms
+2026-04-24 09:44:26:4426 error: GET /favicon.ico - 404 - 2ms

@@ -5,21 +5,21 @@ A robust Express.js backend server for a comprehensive real estate management pl
 # Credentials for Testing
 
 - **Admin**
-  - Email:monirhossain@gmail.com
+  - Email:mollarasel972@gmail.com
   - Password:123456789
 
 - **Agent**
-  - Email:ultrasrealpro@gmail.com
+  - Email:sayadfarazi@gmail.com
   - Password:12345678
 
 - **user**
-  - Email:monirdev1@gmail.com
+  - Email:raseldev1@gmail.com
   - Password:12345678
 
 # Live Demo
 
-- **Frontend:** [https://real-estate-client-drab-three.vercel.app](https://real-estate-client-drab-three.vercel.app)
-- **Backend API:** [https://real-state-server-cyan.vercel.app](https://real-state-server-cyan.vercel.app)
+- **Frontend:** [https://real-estate-sage-gamma.vercel.app](https://real-estate-sage-gamma.vercel.app)
+- **Backend API:** [https://real-estate-server-theta.vercel.app](https://real-estate-server-theta.vercel.app)
 
 ## 🚀 Features
 
