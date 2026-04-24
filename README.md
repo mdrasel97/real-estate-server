@@ -504,14 +504,14 @@ pnpm prisma migrate reset
 - Check multer configuration
 - Ensure file size limits are appropriate
 
-## 📄 License
+## License
 
 MIT License - feel free to use this project for your own purposes.
 
-## 👥 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📞 Support
+## Support
 
 For issues and questions, please open an issue on the GitHub repository.
